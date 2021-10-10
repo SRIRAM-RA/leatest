@@ -16,7 +16,7 @@ class About1 extends Component{
     render(){
         const { animation, duration, visible } = this.state
         return(
-            <box className="About-box-1" data-aos="fade-up" data-aos-duration="500">
+            <box className="About-box-1" data-aos="fade-up">
                 <h1>What's Conn<subtext>ected in here</subtext></h1>
                 <rectangle className="blog-box">
                     <div className="span1" />
