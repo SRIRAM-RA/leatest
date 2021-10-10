@@ -19,7 +19,7 @@ class FooterComponent extends Component {
         const { animation, duration, visible } = this.state
         return(
             <section className="footer" >
-                <div data-aos="fade-up">
+                <div data-aos="fade-up" className="animated-box">
                     <box className="footer-box">
                         <box className="footer-outer-box-1">
                             <box className="footer-box-1">

@@ -20,7 +20,7 @@ class LearningDock extends Component{
         const { animation, duration, visible } = this.state
         return(
            <section className="About-box-2">
-                <div data-aos="flip-left" >
+                <div data-aos="flip-left" className="animated-box">
                     <box className="box-2-content">
                         <h3 className="learning-dock-content">Resources that act as tools to enhance learning and supplement classroom teaching. The online learning resources forms the idea that there exists a class of readers who respond better to online content and prefer to learn new skills at their own pace from the comforts of their drawing rooms. This website helps make the process of learning, testing and helps users to gain knowledge.</h3>
                     </box>

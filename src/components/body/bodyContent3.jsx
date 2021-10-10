@@ -19,7 +19,7 @@ class ProgrammingDock extends Component{
         const { animation, duration, visible } = this.state
         return(
             <section className="programming-dock-box">
-                <div data-aos='flip-right'>
+                <div data-aos='flip-right' className="animated-box">
                     <box className="programming-box-1">
                         <Header as='h2' icon>
                             <div>
