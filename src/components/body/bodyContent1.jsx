@@ -16,27 +16,29 @@ class About1 extends Component{
     render(){
         const { animation, duration, visible } = this.state
         return(
-            <box className="About-box-1" data-aos="fade-up">
-                <h1>What's Conn<subtext>ected in here</subtext></h1>
-                <rectangle className="blog-box">
-                    <div className="span1" />
-                    <div className="span2" />
-                    <Header as='h2' icon >
-                        <span><i class="fas fa-blog landing-logo"></i></span>
-                        <Transition
-                        animation={animation}
-                        duration={duration}
-                        visible={visible}
-                        >
-                            <h2 className="blog-head" onMouseUp={this.toggleVisibility}>Edublog</h2>
-                        </Transition>
-                        <Header.Subheader className="blog-content">
-                            Promotes autonomous learning by providing opportunities for students to take more control of their learning. Motivates students to become better readers and writers. Promotes discussion among students.
-                        </Header.Subheader>
-                    </Header>
-                    <br/>
-                    <Button1 />
-                </rectangle>
+            <box className="About-box-1">
+                <div data-aos="fade-up">
+                    <h1>What's Conn<subtext>ected in here</subtext></h1>
+                    <rectangle className="blog-box">
+                        <div className="span1" />
+                        <div className="span2" />
+                        <Header as='h2' icon >
+                            <span><i class="fas fa-blog landing-logo"></i></span>
+                            <Transition
+                            animation={animation}
+                            duration={duration}
+                            visible={visible}
+                            >
+                                <h2 className="blog-head" onMouseUp={this.toggleVisibility}>Edublog</h2>
+                            </Transition>
+                            <Header.Subheader className="blog-content">
+                                Promotes autonomous learning by providing opportunities for students to take more control of their learning. Motivates students to become better readers and writers. Promotes discussion among students.
+                            </Header.Subheader>
+                        </Header>
+                        <br/>
+                        <Button1 />
+                    </rectangle>
+                </div>
             </box>
         )
     }
