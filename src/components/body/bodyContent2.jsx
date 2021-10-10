@@ -26,7 +26,7 @@ class LearningDock extends Component{
                     </box>
                     <box className="box-2-logo">
                         {/* {(enter)?<div></div>:<div></div>} */}
-                    <Header as='h2' icon>
+                        <Header as='h2' icon>
                             <div>
                                 <i class="fas fa-atlas landing-logo"></i>
                             </div>
