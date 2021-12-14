@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Animate from "../animations/animation";
+// import Animate from "../animations/animation";
+import Animate from '../animations/animation';
 import 'semantic-ui-css/semantic.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
