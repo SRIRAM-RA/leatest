@@ -176,6 +176,11 @@ code {
   padding: 100px;
   vertical-align: middle;
 }
+.segment-1-1 h2 {
+  font-size: 2rem;
+  line-height: 1.6;
+  font-weight: 100;
+}
 .segment-1-2 {
   /* display: flex;
   flex-direction: row; */
@@ -187,9 +192,6 @@ code {
 
 h1 {
   font-size: 5rem !important;
-}
-h2 {
-  font-size: 3rem !important;
 }
 .welcome-head {
   font-weight: normal;

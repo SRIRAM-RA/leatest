@@ -19,6 +19,7 @@ input[type="text"] {
 .write-blog-outer-box {
   align-items: center;
   padding: 50px;
+  background-color: white;
 }
 
 .write-blog-inner-box {
